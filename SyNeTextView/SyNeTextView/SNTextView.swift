@@ -254,7 +254,7 @@ open class SyNeTextView: UITextView {
     
     private var fieldObservations: [NSKeyValueObservation] = []
     
-    @objc private func textViewDidChange(_ note: Notification) {
+    @objc private func textViewDidChangeNotification(_ note: Notification) {
 
         let object = note.object as! SyNeTextView
         
@@ -263,7 +263,7 @@ open class SyNeTextView: UITextView {
         object.shouldResignOn(tab: shouldTab, return: shouldReturn)
     }
     
-    @objc private func textViewDidBeginEditing(_ note: Notification) {
+    @objc private func textViewDidBeginEditingNotification(_ note: Notification) {
         
         let object = note.object as! SyNeTextView
         
@@ -271,7 +271,7 @@ open class SyNeTextView: UITextView {
         object.toggleEditingButton()
     }
     
-    @objc private func textViewDidEndEditing(_ note: Notification) {
+    @objc private func textViewDidEndEditingNotification(_ note: Notification) {
        
         let object = note.object as! SyNeTextView
         
@@ -438,21 +438,21 @@ open class SyNeTextView: UITextView {
         
         NotificationCenter.default.addObserver(
             self,
-            selector: #selector(textViewDidChange(_:)),
+            selector: #selector(textViewDidChangeNotification(_:)),
             name: Notification.Name.UITextViewTextDidChange,
             object: self
         )
         
         NotificationCenter.default.addObserver(
             self,
-            selector: #selector(textViewDidBeginEditing(_:)),
+            selector: #selector(textViewDidBeginEditingNotification(_:)),
             name: Notification.Name.UITextViewTextDidBeginEditing,
             object: self
         )
         
         NotificationCenter.default.addObserver(
             self,
-            selector: #selector(textViewDidEndEditing(_:)),
+            selector: #selector(textViewDidEndEditingNotification(_:)),
             name: Notification.Name.UITextViewTextDidEndEditing,
             object: self
         )
