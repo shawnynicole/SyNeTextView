@@ -1,0 +1,6 @@
+framework module SyNeNextResponder {
+  umbrella header "SyNeNextResponder-umbrella.h"
+
+  export *
+  module * { export * }
+}
