@@ -11,7 +11,7 @@ import UIKit
 extension UIView {
     
     /// Traverse view hierarchy ancestors for view of specific type
-    internal func _traverseViewHierarchy<T: UIView>(_: T.Type, callback: ((UIView) -> Void)? = nil) -> T? {
+    internal func _traverseSyNeTextViewHierarchy<T: UIView>(_: T.Type, callback: ((UIView) -> Void)? = nil) -> T? {
         
         var currentView = self
         
