@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		52E86D917F089C6F272D8D9D /* Pods_SyNeTextView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA97CC261CB3C7CC1FC517BE /* Pods_SyNeTextView.framework */; };
-		F714625E207B4D8500DAD31D /* +UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F714625D207B4D8500DAD31D /* +UIView.swift */; };
+		F714625E207B4D8500DAD31D /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F714625D207B4D8500DAD31D /* UIView.swift */; };
 		F7343111207AFBA30094BF9D /* SyNeTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = F734310F207AFBA30094BF9D /* SyNeTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F734311A207AFBB30094BF9D /* SyNeTextView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F7343117207AFBB20094BF9D /* SyNeTextView.podspec */; };
 		F734311B207AFBB30094BF9D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F7343118207AFBB20094BF9D /* README.md */; };
@@ -26,7 +26,7 @@
 		0A0E8850343929C1BCDBA0DD /* Pods-SyNeTextView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyNeTextView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SyNeTextView/Pods-SyNeTextView.debug.xcconfig"; sourceTree = "<group>"; };
 		6C153FAF368EB4768A1DBFB3 /* Pods-SyNeTextView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyNeTextView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SyNeTextView/Pods-SyNeTextView.release.xcconfig"; sourceTree = "<group>"; };
 		DA97CC261CB3C7CC1FC517BE /* Pods_SyNeTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SyNeTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F714625D207B4D8500DAD31D /* +UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "+UIView.swift"; path = "SyNeTextView/+UIView.swift"; sourceTree = SOURCE_ROOT; };
+		F714625D207B4D8500DAD31D /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = SyNeTextView/UIView.swift; sourceTree = SOURCE_ROOT; };
 		F734310C207AFBA30094BF9D /* SyNeTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SyNeTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F734310F207AFBA30094BF9D /* SyNeTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyNeTextView.h; sourceTree = "<group>"; };
 		F7343110207AFBA30094BF9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 				F734311F207AFBC10094BF9D /* +UIColor.swift */,
 				F7343122207AFBC10094BF9D /* +UIFont.swift */,
 				F734311D207AFBC10094BF9D /* +UITextView.swift */,
-				F714625D207B4D8500DAD31D /* +UIView.swift */,
+				F714625D207B4D8500DAD31D /* UIView.swift */,
 				F7343123207AFBC10094BF9D /* Assets.xcassets */,
 				F734311E207AFBC10094BF9D /* SNTextView.swift */,
 				F7343120207AFBC10094BF9D /* SNTextViewClearMode.swift */,
@@ -232,7 +232,7 @@
 			files = (
 				F7343129207AFBC20094BF9D /* +UIFont.swift in Sources */,
 				F7343126207AFBC20094BF9D /* +UIColor.swift in Sources */,
-				F714625E207B4D8500DAD31D /* +UIView.swift in Sources */,
+				F714625E207B4D8500DAD31D /* UIView.swift in Sources */,
 				F7343127207AFBC20094BF9D /* SNTextViewClearMode.swift in Sources */,
 				F7343128207AFBC20094BF9D /* SNTextViewMode.swift in Sources */,
 				F7343125207AFBC20094BF9D /* SNTextView.swift in Sources */,
