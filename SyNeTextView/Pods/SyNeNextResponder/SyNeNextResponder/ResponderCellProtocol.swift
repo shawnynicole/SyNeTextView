@@ -12,7 +12,7 @@ import UIKit
 public protocol ResponderCellProtocol: NSObjectProtocol {
 
     /// Return a responder (i.e. UITextField, UITextView, etc.)
-    var responder: UIResponder? { get }
+    var responder: UIResponder { get }
     
     /// Return the responder's isEnabled/isEditable property (i.e. UITextField.isEnabled, UITextView.isEditable, etc.)
     var isEnabled: Bool { get }

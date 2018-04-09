@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'SyNeTextView'
-s.version          = '0.1.1'
+s.version          = '0.1.2'
 s.summary          = 'SyNeTextView: A UITextView with UITextView and UITextField behaviors.'
 
 # This description is used to generate tags and improve search results.

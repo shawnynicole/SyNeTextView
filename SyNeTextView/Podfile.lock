@@ -1,11 +1,11 @@
 PODS:
-  - SyNeNextResponder (0.1.0)
+  - SyNeNextResponder (0.1.1)
 
 DEPENDENCIES:
   - SyNeNextResponder
 
 SPEC CHECKSUMS:
-  SyNeNextResponder: f783fb17537fb3832ca0058b61a7b7d2ca120b02
+  SyNeNextResponder: 83dc468b41d5081f87195fc93f04d413814742b2
 
 PODFILE CHECKSUM: 0a03d2e771878404c450fb6106f5a3dcf3c88358
 

@@ -11,7 +11,7 @@ import UIKit
 extension UIView {
     
     /// Traverse view hierarchy ancestors for view of specific type
-    public func traverseViewHierarchy<T: UIView>(_: T.Type, callback: ((UIView) -> Void)? = nil) -> T? {
+    internal func _traverseViewHierarchy<T: UIView>(_: T.Type, callback: ((UIView) -> Void)? = nil) -> T? {
         
         var currentView = self
         
@@ -41,16 +41,16 @@ extension UIView {
         // Obtain the indexPath for this view's cell
         // Obtain the ResponderCellProtocol.responder for the next IndexPath
         
-        if let cell = traverseViewHierarchy(UICollectionViewCell.self) {
+        if let cell = _traverseViewHierarchy(UICollectionViewCell.self) {
             
-            let collectionView = traverseViewHierarchy(UICollectionView.self)
+            let collectionView = _traverseViewHierarchy(UICollectionView.self)
             guard let indexPath = collectionView?.indexPath(for: cell) else { return nil }
             return collectionView?.cellReponder(after: indexPath)
         }
         
-        if let cell = traverseViewHierarchy(UITableViewCell.self) {
+        if let cell = _traverseViewHierarchy(UITableViewCell.self) {
             
-            let tableView = traverseViewHierarchy(UITableView.self)
+            let tableView = _traverseViewHierarchy(UITableView.self)
             guard let indexPath = tableView?.indexPath(for: cell) else { return nil }
             return tableView?.cellReponder(after: indexPath)
         }

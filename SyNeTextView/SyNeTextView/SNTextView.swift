@@ -382,15 +382,15 @@ open class SyNeTextView: UITextView {
         // Unselect any selected text
         resignFirstResponder()
         
-        if let collectionView = traverseViewHierarchy(UICollectionView.self) {
-            guard let cell = traverseViewHierarchy(UICollectionViewCell.self) else { return }
+        if let collectionView = _traverseViewHierarchy(UICollectionView.self) {
+            guard let cell = _traverseViewHierarchy(UICollectionViewCell.self) else { return }
             guard let ip = collectionView.indexPath(for: cell) else { return }
             collectionView.delegate?.collectionView?(collectionView, didSelectItemAt: ip)
         }
         
-        else if let tableView = traverseViewHierarchy(UITableView.self) {
+        else if let tableView = _traverseViewHierarchy(UITableView.self) {
             
-            guard let cell = traverseViewHierarchy(UITableViewCell.self) else { return }
+            guard let cell = _traverseViewHierarchy(UITableViewCell.self) else { return }
             guard let ip = tableView.indexPath(for: cell) else { return }
             tableView.delegate?.tableView?(tableView, didSelectRowAt: ip)
         }
