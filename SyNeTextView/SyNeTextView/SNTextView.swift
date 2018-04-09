@@ -17,7 +17,7 @@ open class SyNeTextView: UITextView {
         get { return super.isEditable }
         set {
             super.isEditable = newValue
-            textColor = newValue ? _textColor : .disabledGray
+            textColor = newValue ? _textColor : ._disabledGray
             singleTap?.isEnabled = !newValue
             doubleTap?.isEnabled = !newValue
         }
@@ -27,7 +27,7 @@ open class SyNeTextView: UITextView {
         get { return super.textColor }
         set {
             _textColor = newValue
-            super.textColor = isEditable ? newValue : .disabledGray
+            super.textColor = isEditable ? newValue : ._disabledGray
         }
     }
     
@@ -59,7 +59,7 @@ open class SyNeTextView: UITextView {
         return view
     }()
     
-    private var placeholderColor: UIColor = .placeholder
+    private var placeholderColor: UIColor = ._placeholder
     
     @IBInspectable
     public var placeholder: String? {
@@ -119,7 +119,7 @@ open class SyNeTextView: UITextView {
         let button = UIButton(type: .system)
         button.addTarget(self, action: #selector(doneButtonAction), for: .touchUpInside)
         button.setTitle("Done", for: .normal)
-        button.setTitleColor(.dodgerBlue, for: .normal)
+        button.setTitleColor(._dodgerBlue, for: .normal)
         button.titleLabel?.font = button.titleLabel?.font.bold()
 
         return button
