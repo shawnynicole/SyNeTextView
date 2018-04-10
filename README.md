@@ -9,18 +9,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Description
-
-SyNeTextView can be configured to end editing when a return/enter and/or tab is pressed;
-Simply change SyNeTextView.editingMode for the different configurations.
-
-## Key Features
-
- - Configure whether to end editing when return/enter and/or tab is pressed. 
- - Assign a placholder.
- - Accepts left and/or right views.
- - Adds an optional done button to the view while editing.
- - When disabled, text remains selectable, when applicable, yet tappable in a cell.
+## Requirements
 
 ## Installation
 
@@ -31,15 +20,9 @@ it, simply add the following line to your Podfile:
 pod 'SyNeTextView'
 ```
 
-## Dependencies
-
-```ruby
-pod 'SyNeNextResponder'
-```
-
 ## Author
 
-ShawnyNicole
+shawnynicole
 
 ## License
 

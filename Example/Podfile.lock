@@ -1,0 +1,19 @@
+PODS:
+  - SyNeNextResponder (0.1.1)
+  - SyNeTextView (0.1.2):
+    - SyNeNextResponder
+
+DEPENDENCIES:
+  - SyNeTextView (from `../`)
+
+EXTERNAL SOURCES:
+  SyNeTextView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SyNeNextResponder: 83dc468b41d5081f87195fc93f04d413814742b2
+  SyNeTextView: 076b6ea6c7b97fa7c6833937d94acdc16d470bbb
+
+PODFILE CHECKSUM: 5495cb75a33669dab5386415585bc4df21c33b85
+
+COCOAPODS: 1.4.0

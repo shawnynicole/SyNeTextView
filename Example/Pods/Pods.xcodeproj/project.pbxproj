@@ -1,0 +1,840 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		290A5D9779F5B5E84447BC31742337FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F73BF9833E026E437D2BD192A609E4B /* Foundation.framework */; };
+		2E0EA3310BCD2CEA1F114FB9E6111F14 /* +UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE3125711D24D24C353D5EE1DB28204 /* +UIColor.swift */; };
+		3B5A7295D92B70BBFDABF4E642050F93 /* +UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA152372F8C3CDFEBB620D758387911D /* +UICollectionView.swift */; };
+		3BEB9256A082BD5E9F4E68BF3AB334CC /* SyNeNextResponder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1602425D4A2B26EF5C74B4F578D75FBA /* SyNeNextResponder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44144BEF772A4E0F7F28CBF93311136E /* ResponderCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A170A2B348C08ABDDEC175BD88F577D2 /* ResponderCellProtocol.swift */; };
+		46DD4EC21C1A21A9D0C9D7E2A290C543 /* CenterableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48FCABECE29F470B138CCB5BD523FB8 /* CenterableTextView.swift */; };
+		4C1E599F7E5287924E227D314A71820D /* SyNeNextResponder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83430F5016DCC73342B6D49992E82EE2 /* SyNeNextResponder-dummy.m */; };
+		4F60463CF2FC2231697C2E218E4E3C75 /* SyNeTextViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B08E6C92CF984645E96C00E0A8EB41 /* SyNeTextViewMode.swift */; };
+		5BF7B74547C5959094DF9BD05161BEDF /* Pods-SyNeTextView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 078CDB1E0CC6074F9A7B4E42574B313C /* Pods-SyNeTextView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6168D4F7ED1CE86A852BBA40B073E90C /* SyNeTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A291578A8E298744D55DE7CC8BDF10AC /* SyNeTextView-dummy.m */; };
+		6AD29D2B06C214C3BDE4047418E0E922 /* +UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0531496DC9DC076F426878CAB8BC6434 /* +UITableView.swift */; };
+		7024EBE2891362FB70834DB16D1D6183 /* +UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22CA259219CB04191D515D9A5D4A4A0 /* +UIFont.swift */; };
+		7A42AF6BCFF6D678CF9FDC5AF5CF08BE /* SyNeTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8D44D85DFE4FC1D251B2F419BA3B78A /* SyNeTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D85F792B7BBB209032ADCF1E79A05FD /* Pods-SyNeTextView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 375B2EEC66ACF317E55706B1B327B709 /* Pods-SyNeTextView_Example-dummy.m */; };
+		8C47BEDCB672E4246B5D615B81A97C62 /* +UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB9C7A968DE976E0E33D62C7A0A6CB3 /* +UITextView.swift */; };
+		8CE14C23AB5765FFBF81B524CA608122 /* +UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51FC6046F3771A0E610F17F5235B2A6 /* +UIView.swift */; };
+		8E51820773FC3DF4A65BD4D7D486AB2D /* SyNeTextViewClearMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CC44CE5EE282090C321C84A96B734F /* SyNeTextViewClearMode.swift */; };
+		9BA5A34A4D0B73C963F259ADAE482059 /* SyNeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CC10372DAB59D8D03E91E6810D7587 /* SyNeTextView.swift */; };
+		9E9117F4FE5A17852BC7B8B96C01EC39 /* SyNeNextResponder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FD062202B0FF581498F57819BD2E24 /* SyNeNextResponder.framework */; };
+		B8FED496CE28FF5B3D65E85FA9FB833F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D372B7695AE1D193D9D672B1C7C0D21B /* Assets.xcassets */; };
+		C47655E2BA5C615D300E83E77B2A5DC9 /* +UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F812225AC60F10339E52B631D83F2C /* +UIView.swift */; };
+		C687481F5A6A6C36E9FE265E1E7072D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F73BF9833E026E437D2BD192A609E4B /* Foundation.framework */; };
+		CF6D1AC1F95323C4F710BD954EB659C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F73BF9833E026E437D2BD192A609E4B /* Foundation.framework */; };
+		E3E06F6C6CC33F2393B489FD42F38322 /* SyNeNextResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 202F2DC254823EB86D3A26AC9F6D57B0 /* SyNeNextResponder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DFC8565AD5B90BB6FB3974A0AF91A11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB767CBC8E9096AF0C8627236363484B;
+			remoteInfo = SyNeTextView;
+		};
+		C13D4A2FBC59E7EFC02A46DA88EF174B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09740293518CE5BD1456D00DEF3984E0;
+			remoteInfo = SyNeNextResponder;
+		};
+		FBC18DA278218F454C490CDFD2A481D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09740293518CE5BD1456D00DEF3984E0;
+			remoteInfo = SyNeNextResponder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0531496DC9DC076F426878CAB8BC6434 /* +UITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "+UITableView.swift"; path = "SyNeNextResponder/+UITableView.swift"; sourceTree = "<group>"; };
+		078CDB1E0CC6074F9A7B4E42574B313C /* Pods-SyNeTextView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SyNeTextView_Example-umbrella.h"; sourceTree = "<group>"; };
+		135ED8B251C08146A54B65B8D228C152 /* SyNeTextView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SyNeTextView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1602425D4A2B26EF5C74B4F578D75FBA /* SyNeNextResponder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SyNeNextResponder-umbrella.h"; sourceTree = "<group>"; };
+		1BB9C7A968DE976E0E33D62C7A0A6CB3 /* +UITextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "+UITextView.swift"; path = "SyNeTextView/Classes/+UITextView.swift"; sourceTree = "<group>"; };
+		202F2DC254823EB86D3A26AC9F6D57B0 /* SyNeNextResponder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyNeNextResponder.h; path = SyNeNextResponder/SyNeNextResponder.h; sourceTree = "<group>"; };
+		22FD062202B0FF581498F57819BD2E24 /* SyNeNextResponder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SyNeNextResponder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A9AC097CCC36F11D2A2F85D2EFF4881 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BEFDB53BE5707EC5888BA3C68090051 /* SyNeNextResponder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SyNeNextResponder.xcconfig; sourceTree = "<group>"; };
+		2C050B21B5FEC689DB95F10B46218599 /* SyNeTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SyNeTextView-prefix.pch"; sourceTree = "<group>"; };
+		30DC998C7ED1766CEEEA4BA7D3E854C2 /* Pods-SyNeTextView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SyNeTextView_Example.modulemap"; sourceTree = "<group>"; };
+		375B2EEC66ACF317E55706B1B327B709 /* Pods-SyNeTextView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SyNeTextView_Example-dummy.m"; sourceTree = "<group>"; };
+		38CC10372DAB59D8D03E91E6810D7587 /* SyNeTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SyNeTextView.swift; path = SyNeTextView/Classes/SyNeTextView.swift; sourceTree = "<group>"; };
+		3B73606C075E28F6A471F5FBF238D1A0 /* SyNeTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SyNeTextView.modulemap; sourceTree = "<group>"; };
+		3F73BF9833E026E437D2BD192A609E4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		452499CC22CE90D1777DDD68B78928A9 /* SyNeTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SyNeTextView.xcconfig; sourceTree = "<group>"; };
+		5370D983EF949884D132360A6667F0B7 /* Pods_SyNeTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SyNeTextView_Example.framework; path = "Pods-SyNeTextView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A982CC7FE71B03C89B79A190D061CB7 /* SyNeNextResponder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SyNeNextResponder.framework; path = SyNeNextResponder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB658BBCD47227631A015B2DBC5DC75 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71CC44CE5EE282090C321C84A96B734F /* SyNeTextViewClearMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SyNeTextViewClearMode.swift; path = SyNeTextView/Classes/SyNeTextViewClearMode.swift; sourceTree = "<group>"; };
+		724384E118CA35E54EB1718F09C4DC4B /* Pods-SyNeTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SyNeTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		784EA883848C830E23710CB2C26DE239 /* Pods-SyNeTextView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SyNeTextView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		83430F5016DCC73342B6D49992E82EE2 /* SyNeNextResponder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SyNeNextResponder-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95B37EB7819533E1839C3971975411D7 /* Pods-SyNeTextView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SyNeTextView_Example-resources.sh"; sourceTree = "<group>"; };
+		9B566B1EBDFC50408A30851A9D979507 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9DE284BADA9C3A00A311670F14023DF1 /* SyNeNextResponder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SyNeNextResponder.modulemap; sourceTree = "<group>"; };
+		A170A2B348C08ABDDEC175BD88F577D2 /* ResponderCellProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponderCellProtocol.swift; path = SyNeNextResponder/ResponderCellProtocol.swift; sourceTree = "<group>"; };
+		A291578A8E298744D55DE7CC8BDF10AC /* SyNeTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SyNeTextView-dummy.m"; sourceTree = "<group>"; };
+		A48FCABECE29F470B138CCB5BD523FB8 /* CenterableTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CenterableTextView.swift; path = SyNeTextView/Classes/CenterableTextView.swift; sourceTree = "<group>"; };
+		A8D44D85DFE4FC1D251B2F419BA3B78A /* SyNeTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SyNeTextView-umbrella.h"; sourceTree = "<group>"; };
+		A8F812225AC60F10339E52B631D83F2C /* +UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "+UIView.swift"; path = "SyNeTextView/Classes/+UIView.swift"; sourceTree = "<group>"; };
+		AA974276EBC8B8025D000733E8E84E7E /* SyNeNextResponder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SyNeNextResponder-prefix.pch"; sourceTree = "<group>"; };
+		ABEA8391EC1FA65A1AF8CABCAF31625B /* Pods-SyNeTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SyNeTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B9A8F89AE7CDB312D7A36AB215FF0BBE /* SyNeTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SyNeTextView.framework; path = SyNeTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE003474B136CC66591B135EC647D48 /* Pods-SyNeTextView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SyNeTextView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C6B08E6C92CF984645E96C00E0A8EB41 /* SyNeTextViewMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SyNeTextViewMode.swift; path = SyNeTextView/Classes/SyNeTextViewMode.swift; sourceTree = "<group>"; };
+		CA152372F8C3CDFEBB620D758387911D /* +UICollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "+UICollectionView.swift"; path = "SyNeNextResponder/+UICollectionView.swift"; sourceTree = "<group>"; };
+		D2977824127C620C4E760C34033CE7ED /* Pods-SyNeTextView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SyNeTextView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D372B7695AE1D193D9D672B1C7C0D21B /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SyNeTextView/Assets/Assets.xcassets; sourceTree = "<group>"; };
+		E49A04B68A40B44DED54A665FB39E0E6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE3125711D24D24C353D5EE1DB28204 /* +UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "+UIColor.swift"; path = "SyNeTextView/Classes/+UIColor.swift"; sourceTree = "<group>"; };
+		F22CA259219CB04191D515D9A5D4A4A0 /* +UIFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "+UIFont.swift"; path = "SyNeTextView/Classes/+UIFont.swift"; sourceTree = "<group>"; };
+		F51FC6046F3771A0E610F17F5235B2A6 /* +UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "+UIView.swift"; path = "SyNeNextResponder/+UIView.swift"; sourceTree = "<group>"; };
+		FF522289E1DE0240DB66E6D38AAC5582 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AB3B6B6F26771EE7677D3294B5A012B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290A5D9779F5B5E84447BC31742337FA /* Foundation.framework in Frameworks */,
+				9E9117F4FE5A17852BC7B8B96C01EC39 /* SyNeNextResponder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C4A18A241D65AA69060BEDFF98178A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C687481F5A6A6C36E9FE265E1E7072D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F113AE24CE612E669B78C89444089810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6D1AC1F95323C4F710BD954EB659C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B6F606A373F86BB4EFB758BEDB64446 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A9AC097CCC36F11D2A2F85D2EFF4881 /* Info.plist */,
+				3B73606C075E28F6A471F5FBF238D1A0 /* SyNeTextView.modulemap */,
+				452499CC22CE90D1777DDD68B78928A9 /* SyNeTextView.xcconfig */,
+				A291578A8E298744D55DE7CC8BDF10AC /* SyNeTextView-dummy.m */,
+				2C050B21B5FEC689DB95F10B46218599 /* SyNeTextView-prefix.pch */,
+				A8D44D85DFE4FC1D251B2F419BA3B78A /* SyNeTextView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SyNeTextView";
+			sourceTree = "<group>";
+		};
+		25763EF2751D0D2A7C35DB57333B5D08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22FD062202B0FF581498F57819BD2E24 /* SyNeNextResponder.framework */,
+				9EA3D079854C783BF222352D40A7B002 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2582FCAF7E4E3ADBDA816E294AF7AD91 /* SyNeTextView */ = {
+			isa = PBXGroup;
+			children = (
+				EFE3125711D24D24C353D5EE1DB28204 /* +UIColor.swift */,
+				F22CA259219CB04191D515D9A5D4A4A0 /* +UIFont.swift */,
+				1BB9C7A968DE976E0E33D62C7A0A6CB3 /* +UITextView.swift */,
+				A8F812225AC60F10339E52B631D83F2C /* +UIView.swift */,
+				A48FCABECE29F470B138CCB5BD523FB8 /* CenterableTextView.swift */,
+				38CC10372DAB59D8D03E91E6810D7587 /* SyNeTextView.swift */,
+				71CC44CE5EE282090C321C84A96B734F /* SyNeTextViewClearMode.swift */,
+				C6B08E6C92CF984645E96C00E0A8EB41 /* SyNeTextViewMode.swift */,
+				599FF29C307696B46674C3537A5F3675 /* Pod */,
+				BCCCF5796AF193CB479AE49B4E6F9619 /* Resources */,
+				1B6F606A373F86BB4EFB758BEDB64446 /* Support Files */,
+			);
+			name = SyNeTextView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		386091F0B3773097B9C67936C10E1999 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E49A04B68A40B44DED54A665FB39E0E6 /* Info.plist */,
+				9DE284BADA9C3A00A311670F14023DF1 /* SyNeNextResponder.modulemap */,
+				2BEFDB53BE5707EC5888BA3C68090051 /* SyNeNextResponder.xcconfig */,
+				83430F5016DCC73342B6D49992E82EE2 /* SyNeNextResponder-dummy.m */,
+				AA974276EBC8B8025D000733E8E84E7E /* SyNeNextResponder-prefix.pch */,
+				1602425D4A2B26EF5C74B4F578D75FBA /* SyNeNextResponder-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SyNeNextResponder";
+			sourceTree = "<group>";
+		};
+		411E201D1C9C01173A10E47B95C91086 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDF89AE9102B9EE29B85B5733A43A5CF /* Pods-SyNeTextView_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4B884E1232529F6CD91A4AF5E052AA9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAE8A9FD2375746E67A5811B81A2E7E0 /* SyNeNextResponder */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		599FF29C307696B46674C3537A5F3675 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FF522289E1DE0240DB66E6D38AAC5582 /* LICENSE */,
+				9B566B1EBDFC50408A30851A9D979507 /* README.md */,
+				135ED8B251C08146A54B65B8D228C152 /* SyNeTextView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A274F6A4021346426D8592424E6841C9 /* Development Pods */,
+				25763EF2751D0D2A7C35DB57333B5D08 /* Frameworks */,
+				4B884E1232529F6CD91A4AF5E052AA9F /* Pods */,
+				93DB287A2B14E02C4E6E57E18D8653E5 /* Products */,
+				411E201D1C9C01173A10E47B95C91086 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		93DB287A2B14E02C4E6E57E18D8653E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5370D983EF949884D132360A6667F0B7 /* Pods_SyNeTextView_Example.framework */,
+				5A982CC7FE71B03C89B79A190D061CB7 /* SyNeNextResponder.framework */,
+				B9A8F89AE7CDB312D7A36AB215FF0BBE /* SyNeTextView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EA3D079854C783BF222352D40A7B002 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3F73BF9833E026E437D2BD192A609E4B /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A274F6A4021346426D8592424E6841C9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2582FCAF7E4E3ADBDA816E294AF7AD91 /* SyNeTextView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BAE8A9FD2375746E67A5811B81A2E7E0 /* SyNeNextResponder */ = {
+			isa = PBXGroup;
+			children = (
+				CA152372F8C3CDFEBB620D758387911D /* +UICollectionView.swift */,
+				0531496DC9DC076F426878CAB8BC6434 /* +UITableView.swift */,
+				F51FC6046F3771A0E610F17F5235B2A6 /* +UIView.swift */,
+				A170A2B348C08ABDDEC175BD88F577D2 /* ResponderCellProtocol.swift */,
+				202F2DC254823EB86D3A26AC9F6D57B0 /* SyNeNextResponder.h */,
+				386091F0B3773097B9C67936C10E1999 /* Support Files */,
+			);
+			name = SyNeNextResponder;
+			path = SyNeNextResponder;
+			sourceTree = "<group>";
+		};
+		BCCCF5796AF193CB479AE49B4E6F9619 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D372B7695AE1D193D9D672B1C7C0D21B /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BDF89AE9102B9EE29B85B5733A43A5CF /* Pods-SyNeTextView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6AB658BBCD47227631A015B2DBC5DC75 /* Info.plist */,
+				30DC998C7ED1766CEEEA4BA7D3E854C2 /* Pods-SyNeTextView_Example.modulemap */,
+				BDE003474B136CC66591B135EC647D48 /* Pods-SyNeTextView_Example-acknowledgements.markdown */,
+				D2977824127C620C4E760C34033CE7ED /* Pods-SyNeTextView_Example-acknowledgements.plist */,
+				375B2EEC66ACF317E55706B1B327B709 /* Pods-SyNeTextView_Example-dummy.m */,
+				784EA883848C830E23710CB2C26DE239 /* Pods-SyNeTextView_Example-frameworks.sh */,
+				95B37EB7819533E1839C3971975411D7 /* Pods-SyNeTextView_Example-resources.sh */,
+				078CDB1E0CC6074F9A7B4E42574B313C /* Pods-SyNeTextView_Example-umbrella.h */,
+				724384E118CA35E54EB1718F09C4DC4B /* Pods-SyNeTextView_Example.debug.xcconfig */,
+				ABEA8391EC1FA65A1AF8CABCAF31625B /* Pods-SyNeTextView_Example.release.xcconfig */,
+			);
+			name = "Pods-SyNeTextView_Example";
+			path = "Target Support Files/Pods-SyNeTextView_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D2F6C98644C78884525E510AD3E2FA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEB9256A082BD5E9F4E68BF3AB334CC /* SyNeNextResponder-umbrella.h in Headers */,
+				E3E06F6C6CC33F2393B489FD42F38322 /* SyNeNextResponder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF7C2677EF3EAF8C520A9E7DA84069A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF7B74547C5959094DF9BD05161BEDF /* Pods-SyNeTextView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B14B383B7AD6700CD0DCE4E20A59127 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A42AF6BCFF6D678CF9FDC5AF5CF08BE /* SyNeTextView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09740293518CE5BD1456D00DEF3984E0 /* SyNeNextResponder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39B38FF0F9EB14950EFCC61057E9E507 /* Build configuration list for PBXNativeTarget "SyNeNextResponder" */;
+			buildPhases = (
+				5975E0964272FF38C982EA2518E7BAF9 /* Sources */,
+				F113AE24CE612E669B78C89444089810 /* Frameworks */,
+				1D2F6C98644C78884525E510AD3E2FA2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SyNeNextResponder;
+			productName = SyNeNextResponder;
+			productReference = 5A982CC7FE71B03C89B79A190D061CB7 /* SyNeNextResponder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5355524314279741B60AE53CC1BA21EB /* Pods-SyNeTextView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8411803F36C646681E132BEF7A26BEAE /* Build configuration list for PBXNativeTarget "Pods-SyNeTextView_Example" */;
+			buildPhases = (
+				0D9968F72432B8197039516A09DD183C /* Sources */,
+				5C4A18A241D65AA69060BEDFF98178A3 /* Frameworks */,
+				3DF7C2677EF3EAF8C520A9E7DA84069A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0F67DEF1B5DF4E9A9780242C25B4FE9 /* PBXTargetDependency */,
+				E29A91BC1BAF6C11BF8B82EDE39CA23F /* PBXTargetDependency */,
+			);
+			name = "Pods-SyNeTextView_Example";
+			productName = "Pods-SyNeTextView_Example";
+			productReference = 5370D983EF949884D132360A6667F0B7 /* Pods_SyNeTextView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB767CBC8E9096AF0C8627236363484B /* SyNeTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F649B027D8A02B163E3B260B6EAF5E2 /* Build configuration list for PBXNativeTarget "SyNeTextView" */;
+			buildPhases = (
+				5D856216F25E6F62844B77C2CC285602 /* Sources */,
+				1AB3B6B6F26771EE7677D3294B5A012B /* Frameworks */,
+				56F76F32B33BB15C5931D59FBA137313 /* Resources */,
+				7B14B383B7AD6700CD0DCE4E20A59127 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB8CBF7C6B803170519DAAE47B7C510F /* PBXTargetDependency */,
+			);
+			name = SyNeTextView;
+			productName = SyNeTextView;
+			productReference = B9A8F89AE7CDB312D7A36AB215FF0BBE /* SyNeTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 93DB287A2B14E02C4E6E57E18D8653E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5355524314279741B60AE53CC1BA21EB /* Pods-SyNeTextView_Example */,
+				09740293518CE5BD1456D00DEF3984E0 /* SyNeNextResponder */,
+				FB767CBC8E9096AF0C8627236363484B /* SyNeTextView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56F76F32B33BB15C5931D59FBA137313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8FED496CE28FF5B3D65E85FA9FB833F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D9968F72432B8197039516A09DD183C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D85F792B7BBB209032ADCF1E79A05FD /* Pods-SyNeTextView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5975E0964272FF38C982EA2518E7BAF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5A7295D92B70BBFDABF4E642050F93 /* +UICollectionView.swift in Sources */,
+				6AD29D2B06C214C3BDE4047418E0E922 /* +UITableView.swift in Sources */,
+				8CE14C23AB5765FFBF81B524CA608122 /* +UIView.swift in Sources */,
+				44144BEF772A4E0F7F28CBF93311136E /* ResponderCellProtocol.swift in Sources */,
+				4C1E599F7E5287924E227D314A71820D /* SyNeNextResponder-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D856216F25E6F62844B77C2CC285602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0EA3310BCD2CEA1F114FB9E6111F14 /* +UIColor.swift in Sources */,
+				7024EBE2891362FB70834DB16D1D6183 /* +UIFont.swift in Sources */,
+				8C47BEDCB672E4246B5D615B81A97C62 /* +UITextView.swift in Sources */,
+				C47655E2BA5C615D300E83E77B2A5DC9 /* +UIView.swift in Sources */,
+				46DD4EC21C1A21A9D0C9D7E2A290C543 /* CenterableTextView.swift in Sources */,
+				6168D4F7ED1CE86A852BBA40B073E90C /* SyNeTextView-dummy.m in Sources */,
+				9BA5A34A4D0B73C963F259ADAE482059 /* SyNeTextView.swift in Sources */,
+				8E51820773FC3DF4A65BD4D7D486AB2D /* SyNeTextViewClearMode.swift in Sources */,
+				4F60463CF2FC2231697C2E218E4E3C75 /* SyNeTextViewMode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0F67DEF1B5DF4E9A9780242C25B4FE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SyNeNextResponder;
+			target = 09740293518CE5BD1456D00DEF3984E0 /* SyNeNextResponder */;
+			targetProxy = FBC18DA278218F454C490CDFD2A481D7 /* PBXContainerItemProxy */;
+		};
+		E29A91BC1BAF6C11BF8B82EDE39CA23F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SyNeTextView;
+			target = FB767CBC8E9096AF0C8627236363484B /* SyNeTextView */;
+			targetProxy = 3DFC8565AD5B90BB6FB3974A0AF91A11 /* PBXContainerItemProxy */;
+		};
+		EB8CBF7C6B803170519DAAE47B7C510F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SyNeNextResponder;
+			target = 09740293518CE5BD1456D00DEF3984E0 /* SyNeNextResponder */;
+			targetProxy = C13D4A2FBC59E7EFC02A46DA88EF174B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		183ED9414717A495DF22F655594F7BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABEA8391EC1FA65A1AF8CABCAF31625B /* Pods-SyNeTextView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SyNeTextView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SyNeTextView_Example/Pods-SyNeTextView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SyNeTextView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1C2FA1BCE9C4B9C5775F91402E2773DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 452499CC22CE90D1777DDD68B78928A9 /* SyNeTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SyNeTextView/SyNeTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SyNeTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SyNeTextView/SyNeTextView.modulemap";
+				PRODUCT_NAME = SyNeTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		26F954BA177A9A46FFFD4E23ED11D67A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		303C909C2921D46F8EC3E3884AD3D544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 452499CC22CE90D1777DDD68B78928A9 /* SyNeTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SyNeTextView/SyNeTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SyNeTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SyNeTextView/SyNeTextView.modulemap";
+				PRODUCT_NAME = SyNeTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		858C8E715E720FCBFF61BEEA8CE9D3CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BEFDB53BE5707EC5888BA3C68090051 /* SyNeNextResponder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SyNeNextResponder/SyNeNextResponder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SyNeNextResponder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SyNeNextResponder/SyNeNextResponder.modulemap";
+				PRODUCT_NAME = SyNeNextResponder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42D64F618C7FD66CA6211C0EC76E294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BEFDB53BE5707EC5888BA3C68090051 /* SyNeNextResponder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SyNeNextResponder/SyNeNextResponder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SyNeNextResponder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SyNeNextResponder/SyNeNextResponder.modulemap";
+				PRODUCT_NAME = SyNeNextResponder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EEA3EEF9370F5EDA2AB38FCA3F78140E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 724384E118CA35E54EB1718F09C4DC4B /* Pods-SyNeTextView_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SyNeTextView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SyNeTextView_Example/Pods-SyNeTextView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SyNeTextView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */,
+				26F954BA177A9A46FFFD4E23ED11D67A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F649B027D8A02B163E3B260B6EAF5E2 /* Build configuration list for PBXNativeTarget "SyNeTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C2FA1BCE9C4B9C5775F91402E2773DE /* Debug */,
+				303C909C2921D46F8EC3E3884AD3D544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39B38FF0F9EB14950EFCC61057E9E507 /* Build configuration list for PBXNativeTarget "SyNeNextResponder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858C8E715E720FCBFF61BEEA8CE9D3CE /* Debug */,
+				B42D64F618C7FD66CA6211C0EC76E294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8411803F36C646681E132BEF7A26BEAE /* Build configuration list for PBXNativeTarget "Pods-SyNeTextView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA3EEF9370F5EDA2AB38FCA3F78140E /* Debug */,
+				183ED9414717A495DF22F655594F7BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
