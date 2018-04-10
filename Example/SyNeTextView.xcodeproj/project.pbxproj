@@ -38,7 +38,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7C988A0F4A07557897551B6F /* Pods-SyNeTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyNeTextView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SyNeTextView_Example/Pods-SyNeTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A4C4EF5A35B1FC104CDAE670 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		BECDDFD77C43062A862FA395 /* SyNeTextView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SyNeTextView.podspec; path = ../SyNeTextView.podspec; sourceTree = "<group>"; };
+		BECDDFD77C43062A862FA395 /* SyNeTextView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SyNeTextView.podspec; path = ../SyNeTextView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F736DAC9207D4F0100359EEC /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		F736DACA207D4F0100359EEC /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		F736DACB207D4F0100359EEC /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
